@@ -27,7 +27,7 @@ body {
     color: #FFFFFF;
   }
   
-  <!-- table of content --> 
+  /* table of content */
   
   .A{
     font-family: Lora; 
@@ -59,7 +59,7 @@ body {
     color:#800080;
   }
   
-  <!-- transition -->
+   /* transition */
   
   .E{
     transition: 0.6s;
