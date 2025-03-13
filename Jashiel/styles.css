@@ -1,0 +1,87 @@
+/*
+  Use the following to include this css file
+  <link rel="stylesheet" href="styles.css" />
+*/
+body {
+    background-color:#000000;
+  }
+  
+  .juju{
+    font-family: Time New Romans; 
+    text-align:center; 
+    font-size:50px; 
+    color:#FFFFFF;
+  }
+  
+  .statement{
+    font-family: EB Garamond; 
+    text-align: center; 
+    font-size: 18px; 
+    color: #FFFFFF;
+  }
+  
+  .statement2{
+    font-family: EB Garamond; 
+    text-align: center; 
+    font-size: 22px; 
+    color: #FFFFFF;
+  }
+  
+  <!-- table of content --> 
+  
+  .A{
+    font-family: Lora; 
+    font-size: 20px; 
+    color:#DC143C;
+  }
+  
+  .B{
+    font-family: Lora; 
+    font-size: 15px; 
+    color:#FFFFFF;
+  }
+  
+  .A{
+    font-family: Lora; 
+    font-size: 20px; 
+    color:#DC143C;
+  }
+  
+  .D{
+    font-family: Lora; 
+    font-size: 50px; 
+    color:#DC143C;
+  }
+  
+  .g{
+    font-family: Lora; 
+    font-size: 50px; 
+    color:#800080;
+  }
+  
+  <!-- transition -->
+  
+  .E{
+    transition: 0.6s;
+  }
+  
+  .E:hover{
+    transform: scale(1.05);
+  }
+      
+      
+  .F{
+    background-color: #800080;
+    color: #FFFFFF;
+    border: 2px solid #800080;
+    border-radius: 5px;
+    font-size: 50px;
+    font-family: Lora;
+    cursor: pointer;
+    transition-duration: 0.6s;
+  }
+  
+  .F:hover{
+    transform: scale(1.05);
+  }
+    
