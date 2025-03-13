@@ -1,0 +1,16 @@
+/* Styles for the page */
+body {
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+    background-color: skyblue;
+    color: #2d2d2d;
+  }
+  
+  /* Styles for custom table */
+  .custom-table {
+    border-color: white;
+  }
+  #custom-table {
+    color: purple;
+  }
+  
