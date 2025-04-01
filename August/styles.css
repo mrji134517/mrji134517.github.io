@@ -1,0 +1,29 @@
+body{
+    padding: 1px;
+    font-family:Times; 
+    text-align: center;
+    background-color:darkgreen;
+    font-size:17px;
+  }
+  
+  .title {
+      color: #5C6AC4;
+  }
+  
+  .Heading1{
+    color:white
+  }
+  
+  #Villians{
+    font-size:40px;
+    color:orange
+  
+    
+  }
+  .p1{
+  color:white
+  }
+  
+  div{
+    text-align:left
+  }  
