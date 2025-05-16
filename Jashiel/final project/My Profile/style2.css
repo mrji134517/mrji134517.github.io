@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+    border: 1px solid #ffffff;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+section {
+    margin: 20px;
+}
+
+.project {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ffffff;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 200px;
+}
+
+h1, h2 {
+    color: #ffffff;
+}
+
+#bio, #work {
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    padding: 15px;
+}
+
+footer {
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+.project-link {
+    text-decoration: none;
+}
+ 
+.project {
+    background-color: #9400D3;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 10px 0;
+    transition: transform 0.2s, box-shadow 0.2s;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 1.2rem;
+    color: #ffffff;
+    box-shadow: 2px 2px 8px rgba(94, 94, 94, 0.1);
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
+    background-color: #b355dc;
+}
