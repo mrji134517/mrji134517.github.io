@@ -1,0 +1,267 @@
+/* Body */
+body {
+    background-color: #3CB371;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #2F4F4F;
+    display: flex;
+    padding: 0;
+    border: 1px solid white;
+    width: 100vh ;
+}
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #3D6B6B, #5FAAAA); 
+    color: white;
+    min-height: 100px;
+    min-width: 100vh;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden; 
+}
+
+/* Glowy Buttons */
+.glow-btn {
+    flex: 1;
+    position: relative;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    overflow: hidden;
+    transition: color 0.4s ease, box-shadow 0.4s ease, background-color 0.4s ease;
+    text-decoration: none;
+    z-index: 0;
+}
+
+/* Glow Effect Layer */
+.glow-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(120deg, transparent, #90EE90, transparent);
+    transition: left 0.4s ease;
+    z-index: -1;
+    pointer-events: none;
+}
+
+/* Hover Glow */
+.glow-btn:hover {
+    color: #003300;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px #90EE90, 0 0 30px #90EE90;
+}
+/* Animal Highlights Table */
+.animal-highlights-table {
+    border-spacing: 0;
+    width: 100%;
+    height: auto; 
+    margin: 0;
+}
+
+/* Styles for Table Header and Table Cells */
+.animal-highlights-table th,
+.animal-highlights-table td {
+    background-color: #2F4F4F;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+/* Table Header */
+.animal-highlights-table th {
+    font-size: 40px;
+}
+
+/* Table Cells */
+.animal-highlights-table td {
+    transition: transform 0.3s;
+    position: relative;
+}
+
+/* Images Inside Cells */
+.animal-highlights-table td img {
+    width: 300px;
+    height: 300px;
+    border: 3px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+}
+
+/* Hover Effect */
+.animal-highlights-table td:hover {
+    transform: translateY(-5px);
+    border-top: 2px solid white;
+}
+.glow-btn:hover::before {
+    left: 0;
+}
+/* About Section Styling */
+.about {
+    padding: 40px;
+    background-color: #3CB371 ; 
+    border-radius: 8px; 
+    margin-top: 1px; 
+}
+
+/* Heading Style */
+.about h2 {
+    font-size: 32px; 
+    color: white;  
+    margin-bottom: 20px;  
+    text-align: center; 
+}
+
+/* Paragraph Style */
+.about p {
+    font-size: 18px;  
+    color: white;  
+    line-height: 1.6;  
+    text-align: center;  
+    margin-bottom: 20px;  
+}
+
+/* List Styling */
+.about ul {
+    padding-left: 20px;
+    margin-top: 20px;  
+}
+
+.about li {
+    font-size: 18px; 
+    color: white; 
+    margin-bottom: 10px; 
+}
+/* Quiz Container */
+#quiz-container {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 700px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Quiz Table */
+.quiz-table {
+    width: 100%;
+}
+/* Question Header */
+#question-header {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Question Image */
+#question-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+/* Answer Buttons */
+.answer-btn {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 12px 20px;
+    background-color: #3498db;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+}
+
+.answer-btn:hover {
+    background-color: #2980b9;
+    box-shadow: 0 0 15px #2980b9, 0 0 30px #2980b9;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+
+/* Selected Answer */
+.answer-btn.selected {
+    background-color: #2ecc71;
+    box-shadow: 0 0 15px #2ecc71, 0 0 30px #2ecc71;
+}
+
+
+/* Submit Button */
+#submit-btn {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#submit-btn:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+
+#submit-btn:hover:enabled {
+    background-color: #d35400;
+    box-shadow: 0 0 15px #e67e22, 0 0 30px #e67e22;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+
+/* Quiz finished styling */
+.quiz-finished {
+    font-size: 24px;
+    font-weight: bold;
+    color: #27ae60;
+    margin-top: 30px;
+}
+miku-container {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  opacity: 0.3;
+  transition: all 0.3s ease;
+  z-index: 9999;
+}
+
+
+.miku-container img {
+  width: 20px; 
+  height: auto;
+  display: block;
+}
+
+.miku-container:hover img {
+  transform: scale(3);
+  opacity: 1;
+}

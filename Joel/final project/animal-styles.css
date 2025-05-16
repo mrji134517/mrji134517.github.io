@@ -1,0 +1,85 @@
+/* Useful Styles */
+.tiger-styles {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid white;
+}
+
+/* Infobox styling */
+.infobox {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    background-color: #2F4F4F;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    text-align: left;
+    font-size: 16px;
+    z-index: 15;
+    margin: 50px auto; 
+    overflow: hidden; 
+    transition: transform 0.3s ease; 
+}
+
+/* Infobox Hover (because drama) */
+.infobox:hover {
+    transform: translateY(-5px);
+}
+
+/* Infobox Header Styling */
+.infobox-header {
+    text-align: center;
+    background-color: #2F4F4F; 
+    padding: 10px;
+    border-bottom: 2px solid white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Infobox Image Styling */
+.infobox-img {
+    width: 100%;         
+    height: 100%;           
+    border-radius: 8px;     
+    margin-bottom: 10px;    
+}
+
+
+/* Table styling inside the infobox */
+.infobox-table {
+    width: 100%;
+    margin-top: 10px;
+    border-spacing: 0;
+}
+
+/* Table Cells */
+.infobox-table td {
+    padding: 8px;
+    font-size: 14px;
+}
+
+/* Table Strong Text */
+.infobox-table td strong {
+    width: 150px;
+    display: inline-block;
+}
+
+/* Bonus Tiger Image */
+.tiger-image-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.tiger-image {
+    max-width: 90%;
+    height: auto;
+    border-radius: 12px;
+    border: 5px solid white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
